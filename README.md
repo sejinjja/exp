@@ -35,4 +35,5 @@ Minimal Node.js project scaffold.
 - Security policy: `SECURITY.md`
 - Tag release automation: `.github/workflows/release.yml` (tag pattern `v*.*.*`)
 - Release guard: tag must match `package.json` version
+- Release validation in workflow: `release:validate` (includes `npm audit`)
 - Release runbook: `docs/release-process.md`

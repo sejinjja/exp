@@ -25,5 +25,6 @@ This project publishes releases from tags that match `v*.*.*`.
 
 1. Check GitHub Actions `Release` workflow
 2. Confirm `Verify tag matches package version` step passed
-3. Confirm release appears in:
+3. Confirm `Run release validation` step passed (`release:validate`)
+4. Confirm release appears in:
    - `https://github.com/sejinjja/exp/releases`
