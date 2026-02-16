@@ -21,3 +21,9 @@ Minimal Node.js project scaffold.
 ## Branch Protection
 
 - Recommended baseline: `docs/branch-protection.md`
+
+## Collaboration
+
+- Contribution guide: `CONTRIBUTING.md`
+- Pull request template: `.github/pull_request_template.md`
+- Issue templates: `.github/ISSUE_TEMPLATE/`
