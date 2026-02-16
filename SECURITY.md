@@ -31,3 +31,4 @@ Include:
 - Code scanning via GitHub CodeQL (`.github/workflows/codeql.yml`)
 - Pull request dependency review (`.github/workflows/dependency-review.yml`)
 - Secret scanning via Gitleaks (`.github/workflows/secret-scan.yml`)
+- SBOM generation workflow (SPDX JSON, `.github/workflows/sbom.yml`)
