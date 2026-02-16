@@ -29,3 +29,4 @@ Include:
 
 - Dependency audit in CI (`npm audit --audit-level=high`)
 - Code scanning via GitHub CodeQL (`.github/workflows/codeql.yml`)
+- Pull request dependency review (`.github/workflows/dependency-review.yml`)

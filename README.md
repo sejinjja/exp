@@ -37,6 +37,7 @@ Minimal Node.js project scaffold.
 - Required checks: `quality`, `security`, `Analyze`
 - CI checks: `.github/workflows/ci.yml` (`quality`, `security`)
 - Code scanning: `.github/workflows/codeql.yml`
+- Dependency review: `.github/workflows/dependency-review.yml`
 - Security policy: `SECURITY.md`
 - Tag release automation: `.github/workflows/release.yml` (tag pattern `v*.*.*`)
 - Release guard: tag must match `package.json` version
