@@ -24,3 +24,8 @@ Include:
 1. Initial response: within 3 business days
 2. Triage decision: within 7 business days
 3. Fix timeline: based on severity and complexity
+
+## Automated Security Checks
+
+- Dependency audit in CI (`npm audit --audit-level=high`)
+- Code scanning via GitHub CodeQL (`.github/workflows/codeql.yml`)
