@@ -29,6 +29,7 @@ Minimal Node.js project scaffold.
 - Issue templates: `.github/ISSUE_TEMPLATE/`
 - Code of conduct: `CODE_OF_CONDUCT.md`
 - License: `LICENSE`
+- Support policy: `SUPPORT.md`
 
 ## Maintenance
 
