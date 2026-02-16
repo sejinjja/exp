@@ -12,6 +12,7 @@ This file tracks the branch protection policy currently applied to `main`.
    - `quality` (GitHub Actions job)
    - `security` (GitHub Actions job)
    - `actionlint` (Workflow lint job)
+   - `markdownlint` (Markdown lint job)
    - `Analyze` (CodeQL workflow)
    - `dependency-review` (Dependency Review workflow)
    - `gitleaks` (Secret Scan workflow)
