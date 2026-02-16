@@ -11,6 +11,7 @@ This file tracks the branch protection policy currently applied to `main`.
 5. Required status checks:
    - `quality` (GitHub Actions job)
    - `security` (GitHub Actions job)
+   - `actionlint` (Workflow lint job)
    - `Analyze` (CodeQL workflow)
    - `dependency-review` (Dependency Review workflow)
    - `gitleaks` (Secret Scan workflow)
