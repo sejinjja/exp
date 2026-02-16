@@ -34,3 +34,4 @@ Minimal Node.js project scaffold.
 - CI checks: `.github/workflows/ci.yml` (`quality`, `security`)
 - Security policy: `SECURITY.md`
 - Tag release automation: `.github/workflows/release.yml` (tag pattern `v*.*.*`)
+- Release runbook: `docs/release-process.md`
