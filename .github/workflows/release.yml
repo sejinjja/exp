@@ -33,8 +33,8 @@ jobs:
             npm install --no-audit --no-fund
           fi
 
-      - name: Run checks
-        run: npm run check
+      - name: Run release validation
+        run: npm run release:validate
 
   release:
     needs: verify
