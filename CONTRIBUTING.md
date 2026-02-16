@@ -7,6 +7,8 @@
 3. Run checks locally:
    - `npm.cmd run check`
 4. Open a pull request to `main`.
+5. Follow the project code of conduct:
+   - `CODE_OF_CONDUCT.md`
 
 ## Pull Request Requirements
 

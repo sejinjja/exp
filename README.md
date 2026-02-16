@@ -27,6 +27,8 @@ Minimal Node.js project scaffold.
 - Contribution guide: `CONTRIBUTING.md`
 - Pull request template: `.github/pull_request_template.md`
 - Issue templates: `.github/ISSUE_TEMPLATE/`
+- Code of conduct: `CODE_OF_CONDUCT.md`
+- License: `LICENSE`
 
 ## Maintenance
 
