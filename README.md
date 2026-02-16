@@ -27,3 +27,8 @@ Minimal Node.js project scaffold.
 - Contribution guide: `CONTRIBUTING.md`
 - Pull request template: `.github/pull_request_template.md`
 - Issue templates: `.github/ISSUE_TEMPLATE/`
+
+## Maintenance
+
+- Dependency updates: `.github/dependabot.yml`
+- CI checks: `.github/workflows/ci.yml` (`quality`, `security`)
