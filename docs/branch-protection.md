@@ -13,6 +13,7 @@ This file tracks the branch protection policy currently applied to `main`.
    - `security` (GitHub Actions job)
    - `Analyze` (CodeQL workflow)
    - `dependency-review` (Dependency Review workflow)
+   - `gitleaks` (Secret Scan workflow)
 6. Require CODEOWNERS review
 7. Require conversation resolution before merging
 8. Apply rules to administrators
