@@ -35,6 +35,7 @@ Minimal Node.js project scaffold.
 
 - Dependency updates: `.github/dependabot.yml`
 - CI checks: `.github/workflows/ci.yml` (`quality`, `security`)
+- Code scanning: `.github/workflows/codeql.yml`
 - Security policy: `SECURITY.md`
 - Tag release automation: `.github/workflows/release.yml` (tag pattern `v*.*.*`)
 - Release guard: tag must match `package.json` version
