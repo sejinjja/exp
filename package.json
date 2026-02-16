@@ -5,6 +5,14 @@
   "description": "Initial Node.js scaffold",
   "scripts": {
     "test": "node --test",
-    "lint": "echo \"No lint configured\""
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --check",
+    "format:write": "prettier . --write",
+    "check": "npm run lint && npm run format && npm test"
+  },
+  "devDependencies": {
+    "eslint": "^10.0.0",
+    "prettier": "^3.8.1"
   }
 }

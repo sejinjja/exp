@@ -13,5 +13,11 @@ Minimal Node.js project scaffold.
 
 1. Install dependencies:
    `npm.cmd install`
-2. Run tests:
+2. Run quality checks:
+   `npm.cmd run check`
+3. Run tests:
    `npm.cmd test`
+
+## Branch Protection
+
+- Recommended baseline: `docs/branch-protection.md`
