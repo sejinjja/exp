@@ -34,9 +34,10 @@ Minimal Node.js project scaffold.
 ## Maintenance
 
 - Dependency updates: `.github/dependabot.yml`
-- Required checks: `quality`, `security`, `Analyze`, `dependency-review`, `gitleaks`, `actionlint`
+- Required checks: `quality`, `security`, `Analyze`, `dependency-review`, `gitleaks`, `actionlint`, `markdownlint`
 - CI checks: `.github/workflows/ci.yml` (`quality`, `security`)
 - Workflow lint: `.github/workflows/actionlint.yml`
+- Markdown lint: `.github/workflows/markdownlint.yml`
 - Code scanning: `.github/workflows/codeql.yml`
 - Dependency review: `.github/workflows/dependency-review.yml`
 - Secret scan: `.github/workflows/secret-scan.yml`
