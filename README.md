@@ -39,6 +39,7 @@ Minimal Node.js project scaffold.
 - Code scanning: `.github/workflows/codeql.yml`
 - Dependency review: `.github/workflows/dependency-review.yml`
 - Secret scan: `.github/workflows/secret-scan.yml`
+- SBOM generation (SPDX JSON): `.github/workflows/sbom.yml`
 - Security policy: `SECURITY.md`
 - Tag release automation: `.github/workflows/release.yml` (tag pattern `v*.*.*`)
 - Release guard: tag must match `package.json` version
