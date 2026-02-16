@@ -1,15 +1,17 @@
-# exp
+﻿# exp
 
-기본 프로젝트 초기 구조입니다.
+Minimal Node.js project scaffold.
 
-## 구조
+## Project Structure
 
-- `src/` 소스 코드
-- `tests/` 테스트 코드
-- `docs/` 문서
+- `src/`: application source code
+- `tests/`: tests using `node --test`
+- `docs/`: documentation
+- `.github/workflows/ci.yml`: CI pipeline
 
-## 시작
+## Quick Start
 
-1. `src/`에 코드 작성
-2. `tests/`에 테스트 추가
-3. 필요 시 `docs/`에 문서화
+1. Install dependencies:
+   `npm.cmd install`
+2. Run tests:
+   `npm.cmd test`

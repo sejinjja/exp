@@ -1,0 +1,10 @@
+{
+  "name": "exp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Initial Node.js scaffold",
+  "scripts": {
+    "test": "node --test",
+    "lint": "echo \"No lint configured\""
+  }
+}
