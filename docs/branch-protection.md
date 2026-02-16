@@ -11,6 +11,7 @@ This file tracks the branch protection policy currently applied to `main`.
 5. Required status checks:
    - `quality` (GitHub Actions job)
    - `security` (GitHub Actions job)
+   - `Analyze` (CodeQL workflow)
 6. Require CODEOWNERS review
 7. Require conversation resolution before merging
 8. Apply rules to administrators

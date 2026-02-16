@@ -34,6 +34,7 @@ Minimal Node.js project scaffold.
 ## Maintenance
 
 - Dependency updates: `.github/dependabot.yml`
+- Required checks: `quality`, `security`, `Analyze`
 - CI checks: `.github/workflows/ci.yml` (`quality`, `security`)
 - Code scanning: `.github/workflows/codeql.yml`
 - Security policy: `SECURITY.md`
