@@ -28,6 +28,7 @@ Include:
 ## Automated Security Checks
 
 - Dependency audit in CI (`npm audit --audit-level=high`)
+- GitHub workflow linting (`.github/workflows/actionlint.yml`)
 - Code scanning via GitHub CodeQL (`.github/workflows/codeql.yml`)
 - Pull request dependency review (`.github/workflows/dependency-review.yml`)
 - Secret scanning via Gitleaks (`.github/workflows/secret-scan.yml`)
