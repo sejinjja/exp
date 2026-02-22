@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability report
+    url: https://github.com/sejinjja/exp/security/policy
+    about: Report vulnerabilities privately. Do not open public issues.
+  - name: Support policy
+    url: https://github.com/sejinjja/exp/blob/main/SUPPORT.md
+    about: Read support channels and response expectations.

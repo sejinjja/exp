@@ -10,6 +10,12 @@ This file tracks the branch protection policy currently applied to `main`.
 4. Require branches to be up to date before merging
 5. Required status checks:
    - `quality` (GitHub Actions job)
+   - `security` (GitHub Actions job)
+   - `actionlint` (Workflow lint job)
+   - `markdownlint` (Markdown lint job)
+   - `Analyze` (CodeQL workflow)
+   - `dependency-review` (Dependency Review workflow)
+   - `gitleaks` (Secret Scan workflow)
 6. Require CODEOWNERS review
 7. Require conversation resolution before merging
 8. Apply rules to administrators
