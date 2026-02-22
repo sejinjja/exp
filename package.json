@@ -1,6 +1,6 @@
 {
   "name": "exp",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "description": "Initial Node.js scaffold",
   "scripts": {
@@ -9,7 +9,10 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier . --check",
     "format:write": "prettier . --write",
-    "check": "npm run lint && npm run format && npm test"
+    "check": "npm run lint && npm run format && npm test",
+    "release:validate": "npm run check && npm audit --audit-level=high",
+    "release:tag": "node scripts/release-tag.js",
+    "release:verify-tag": "node scripts/verify-tag-version.js"
   },
   "devDependencies": {
     "eslint": "^10.0.0",

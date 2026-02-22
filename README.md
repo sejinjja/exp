@@ -27,8 +27,23 @@ Minimal Node.js project scaffold.
 - Contribution guide: `CONTRIBUTING.md`
 - Pull request template: `.github/pull_request_template.md`
 - Issue templates: `.github/ISSUE_TEMPLATE/`
+- Code of conduct: `CODE_OF_CONDUCT.md`
+- License: `LICENSE`
+- Support policy: `SUPPORT.md`
 
 ## Maintenance
 
 - Dependency updates: `.github/dependabot.yml`
+- Required checks: `quality`, `security`, `Analyze`, `dependency-review`, `gitleaks`, `actionlint`, `markdownlint`
 - CI checks: `.github/workflows/ci.yml` (`quality`, `security`)
+- Workflow lint: `.github/workflows/actionlint.yml`
+- Markdown lint: `.github/workflows/markdownlint.yml`
+- Code scanning: `.github/workflows/codeql.yml`
+- Dependency review: `.github/workflows/dependency-review.yml`
+- Secret scan: `.github/workflows/secret-scan.yml`
+- SBOM generation (SPDX JSON): `.github/workflows/sbom.yml`
+- Security policy: `SECURITY.md`
+- Tag release automation: `.github/workflows/release.yml` (tag pattern `v*.*.*`)
+- Release guard: tag must match `package.json` version
+- Release validation in workflow: `release:validate` (includes `npm audit`)
+- Release runbook: `docs/release-process.md`
