@@ -15,7 +15,7 @@
     "release:verify-tag": "node scripts/verify-tag-version.js"
   },
   "devDependencies": {
-    "eslint": "^10.0.0",
+    "eslint": "^10.0.1",
     "prettier": "^3.8.1"
   }
 }
